@@ -5,7 +5,6 @@ public class Main {
 
         String symbol = "@";
         String Space = " ";
-        int space = 10;
 
         for (int i = 1; i <= 1; i++) {
             for (int k = 1; k <= 10; k++) {
@@ -21,17 +20,16 @@ public class Main {
         }
 
         for (int l = 1; l <= 1; l++) {
-            for (int u = 1; u <= 10; u++) {
-                System.out.println(Space.repeat(space) + symbol.repeat(u));
-                space--;
+            for (int u = 1, b = 10; u <= 10; u++) {
+                System.out.println(Space.repeat(b) + symbol.repeat(u));
+                b--;
             }
-            space++;
             System.out.println();
             System.out.println();
-            for (int minecraft = 1; minecraft <= 1; minecraft++) {
+            for (int minecraft = 1, terraria = 1; minecraft <= 1; minecraft++) {
                 for (int t = 10; t >= 1; t--) {
-                    System.out.println(Space.repeat(space) + symbol.repeat(t));
-                    space++;
+                    System.out.println(Space.repeat(terraria) + symbol.repeat(t));
+                    terraria++;
                 }
             }
         }
